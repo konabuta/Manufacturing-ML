@@ -19,6 +19,8 @@
 - Custom Vision Service による画像分類モデル構築
 - ONNXモデルのWindows Machine Learning デプロイ
 
+<br/>
+
 ## [設備保全 (Predictive Maintenance)](./Predictive-Maintenance) ##
 ### [**LSTMによる設備保全**](./Predictive-Maintenance/Predict-RUL-lstm-remote)
 - LSTMによるRULの時系列予測モデル作成
@@ -27,10 +29,15 @@
 ## 需要予測 (Demand Forecasting) ##
 ### 自動機械学習による需要予測モデル構築 (作成中)
 
+<br/>
 
 ## Azure 環境の準備
 
 ### Azure Machine Learnaing service 
+Azure Machine Learning service は、機械学習/深層学習のプロセスを全てカバーする Pythonベースの PaaSサービスになります。データサイエンティスト・市民データサイエンティストが主な利用ユーザになります。
+
+<img src="https://docs.microsoft.com/en-us/azure/machine-learning/service/media/overview-what-is-azure-ml/aml.png" width = 600 align=left />    
+  
 #### Python SDK Install
 ```
 pip install --upgrade azureml-sdk[notebooks,automl,explain,contrib] azureml-dataprep
