@@ -27,6 +27,8 @@
 
 Azure Machine Learnaing service Python SDK
 
-```python
+```
 pip install --upgrade azureml-sdk[notebooks,automl,explain,contrib] azureml-dataprep
 ```
+
+詳細は構築手順は[こちらのページ](./Setup-AMLservice.md)をご参照ください。
