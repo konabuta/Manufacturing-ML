@@ -1,32 +1,37 @@
 # Machine Learning for Manufacturing #
 
-# 品質管理 (Quality Control) ##
-## 自動機械学習による品質予測モデル構築
+製造業における機械学習/深層学習のアナリティクスのユースーケースをまとめています。Azure Machine Learning などのPaaSサービスを利用しています。
+
+
+## [品質管理 (Quality Control)](./Quality-Control) ##
+### [**自動機械学習による品質予測モデル構築**](./Quality-Control/Quality-Prediction)
 - 自動機械学習 Automated Machine Learning による品質予測モデル構築
 - 工場の製造工程データのデモデータを利用
 
-## モデル解釈手法による品質の要因探索
-- SHAPを用いた変数の重要度の出力
-- SHAPを用いた行レベルの変数寄与度の出力
+### [**モデル解釈手法による品質の要因探索**](./Quality-Control/Root-Cause-Analysis-Explainability)
+- Azure Machine Learning Interpretability SDK によるモデル解釈
+- SHAPによるモデル解釈
 
-## 決定木による品質の要因探索
+### [**決定木による品質の要因探索**](./Quality-Control/Statistics-approach)
 - Scikit-Learn Decision Tree モデルによる品質不良の発生条件の理解
 
-## 外観検査モデル構築とWindows MLへのデプロイ
+### 外観検査モデル構築とWindows MLへのデプロイ (作成中)
 - Custom Vision Service による画像分類モデル構築
 - ONNXモデルのWindows Machine Learning デプロイ
 
-# 設備保全 (Predictive Maintenance) ##
-## LSTMによる設備保全
+## [設備保全 (Predictive Maintenance)](./Predictive-Maintenance) ##
+### [**LSTMによる設備保全**](./Predictive-Maintenance/Predict-RUL-lstm-remote)
+- LSTMによるRULの時系列予測モデル作成
+- Machine Learning Compute による高速モデル学習
 
-# 需要予測 (Demand Forecasting) ##
-## 自動機械学習による需要予測モデル構築
+## 需要予測 (Demand Forecasting) ##
+### 自動機械学習による需要予測モデル構築 (作成中)
 
 
-# Azure 環境の準備
+## Azure 環境の準備
 
-Azure Machine Learnaing service Python SDK
-
+### Azure Machine Learnaing service 
+#### Python SDK Install
 ```
 pip install --upgrade azureml-sdk[notebooks,automl,explain,contrib] azureml-dataprep
 ```
