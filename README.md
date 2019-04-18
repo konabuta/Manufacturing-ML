@@ -36,7 +36,7 @@
 ### Azure Machine Learnaing service 
 Azure Machine Learning service は、機械学習/深層学習のプロセスを全てカバーする Pythonベースの PaaSサービスになります。データサイエンティスト・市民データサイエンティストが主な利用ユーザになります。
 
-<img src="https://docs.microsoft.com/en-us/azure/machine-learning/service/media/overview-what-is-azure-ml/aml.png" width = 600 align=left />    
+<img src="https://docs.microsoft.com/en-us/azure/machine-learning/service/media/overview-what-is-azure-ml/aml.png" width = "600">    
   
 #### Python SDK Install
 ```
