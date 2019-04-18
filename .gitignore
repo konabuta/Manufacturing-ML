@@ -2,5 +2,6 @@
 .ipynb_checkpoints
 .azureml
 .azureml/
+.amlignore
 tmp/
 
