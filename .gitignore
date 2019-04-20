@@ -4,4 +4,5 @@
 .azureml/
 .amlignore
 tmp/
+tmp*
 

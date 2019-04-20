@@ -26,6 +26,8 @@
 - LSTMによるRULの時系列予測モデル作成
 - Machine Learning Compute による高速モデル学習
 
+<br/>
+
 ## 需要予測 (Demand Forecasting) ##
 ### 自動機械学習による需要予測モデル構築 (作成中)
 
@@ -33,7 +35,7 @@
 
 ## Azure 環境の準備
 
-### Azure Machine Learnaing service 
+### Azure Machine Learning service 
 Azure Machine Learning service は、機械学習/深層学習のプロセスを全てカバーする Pythonベースの PaaSサービスになります。データサイエンティスト・市民データサイエンティストが主な利用ユーザになります。
 
 <img src="https://docs.microsoft.com/en-us/azure/machine-learning/service/media/overview-what-is-azure-ml/aml.png" width = "600">    
