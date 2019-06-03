@@ -1,3 +1,6 @@
+# [注意] decode 2019 で使用したデモコードは下記 Repogitory に移動しました
+https://github.com/konabuta/Build2019-ML-Update
+
 # Machine Learning for Manufacturing #
 
 製造業における機械学習/深層学習のアナリティクスのユースーケースをまとめています。Azure Machine Learning などのPaaSサービスを利用しています。
