@@ -111,7 +111,7 @@ source activate myenv
 
 - __Azure ML service Python SDK インストール__
 ```shell
-pip install --upgrade azureml-sdk[notebooks,automl,explain] azureml-dataprep
+pip install --upgrade azureml-sdk[notebooks,automl,explain,contrib] azureml-dataprep
 ```
 
 ### - 接続情報を直接記載する方法
